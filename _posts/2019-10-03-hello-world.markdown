@@ -4,7 +4,7 @@ title:      "Welcome to vikeria's Blog"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2019-10-03 17:00:00
 author:     "vikeria"
-header-img: "img/post-bg-hello-2019.jpg"
+header-img: "img/in-post/post-bg-hello-2019.jpg"
 tags:
     - 生活
 ---
