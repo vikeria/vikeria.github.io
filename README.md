@@ -1,9 +1,7 @@
-# HuxBlog Boilerplate
+# This is Vikeria's blog
 
-##### This is the boilerplate of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), all documents is over there!
+#### [View Live Blog &rarr;](http://vikeria.github.io)
 
-#### [View Boilerplate &rarr;](http://huangxuan.me/huxblog-boilerplate/)
+#### Powered by Jekyll
 
-#### [View Live Hux Blog &rarr;](http://huangxuan.me)
-
-## If you like Hux Blog, Please star [huxpro.github.io repo](https://github.com/Huxpro/huxpro.github.io) instead of this! Thank you!
+#### If you like this blog theme, you can visit [huxpro.github.io repo](https://github.com/Huxpro/huxpro.github.io) for more details. And thanks for this theme creator.
