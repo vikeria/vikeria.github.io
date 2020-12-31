@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
@@ -60,13 +63,9 @@ layout: default
                     {% endif %}
                 </ul>
 
-                {% if site.disqus_username %}
-                <!-- disqus 评论框 start -->
-                <div class="comment">
-                    <div id="disqus_thread" class="disqus-thread"></div>
-                </div>
-                <!-- disqus 评论框 end -->
-                {% endif %}
+                <!-- Gitalk 评论 start  -->
+                <div id="gitalk-container"></div>
+                <!-- Gitalk end -->
 
             </div>
 
@@ -126,6 +125,19 @@ layout: default
 <!-- disqus 公共JS代码 end -->
 {% endif %}
 
+<script type="text/javascript">
+    var title = location.pathname.substr(0, 50);//截取路径的前50个字符作为标识符
+    var gitalk = new Gitalk({
+        // gitalk的主要参数
+        clientID: `126d845a8e7d438e4bcc`,
+        clientSecret: `fd49263ea17e9fa6bbc6657b249e4c8ce6472f26`,
+        repo: `vikeria.github.io`,
+        owner: 'vikeria',
+        admin: ['vikeria'],
+        id: title,//因为这里不能超过50字符，所以做了处理，当超过50时自动截取前50
+    });
+    gitalk.render('gitalk-container');
+</script>
 
 {% if site.anchorjs %}
 <!-- async load function -->
