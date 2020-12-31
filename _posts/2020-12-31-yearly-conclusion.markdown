@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "2020年年终总结"
+title:      "Ade 2020"
 subtitle:   "年终总结"
 date:       2021-01-01 00:05:00
 author:     "vikeria"
