@@ -77,3 +77,5 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 friends: [
     
 ]
+
+theme: jekyll-theme-cayman
